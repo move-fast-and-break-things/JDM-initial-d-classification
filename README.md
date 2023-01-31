@@ -1,5 +1,8 @@
 ## JDM-initial-d classification
 
+***!!!Программа изпользует несколько потоков и процессов, так что будьте осторожны!!!***
+
+***!!!The program uses multiple threads and processes, so be careful!!!***
 
 #### Installation
 1. Download the bot.
