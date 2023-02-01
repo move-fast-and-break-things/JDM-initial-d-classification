@@ -45,3 +45,10 @@ alembic upgrade head
 ```
 python main.py
 ```
+
+### Or run it with docker
+
+```
+docker build . -t jdm-initial-d
+docker run -e "JDM_BOT_TOKEN=<your token>" -it jdm-initial-d
+```
