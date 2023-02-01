@@ -14,7 +14,7 @@ pip install virtualenv
 
 3. Create a virtual environment by running the command in the bot folder
 ```
-python -m v env env
+python -m venv env
 ```
 
 4. In the same folder, we write the command
