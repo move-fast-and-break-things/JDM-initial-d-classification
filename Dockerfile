@@ -5,4 +5,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["python", "main.py"]
+CMD ["bash", "-c", "alembic upgrade head && python main.py"]

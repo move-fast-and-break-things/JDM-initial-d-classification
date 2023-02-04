@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  bot:
+    build: .
+    environment:
+      - JDM_SQLALCHEMY_DATABASE_URI=sqlite+aiosqlite:///db/bot.db'
+      - JDM_BOT_TOKEN=${JDM_BOT_TOKEN}
+    volumes:
+      - db:/db
+volumes:
+  db:
+    driver: local
