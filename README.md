@@ -1,4 +1,10 @@
-## JDM-initial-d classification
+## JDM Initial D Car Classifier Bot
+
+### Check It In Action
+
+https://t.me/InitialDCarClassifierBot
+
+### Running It Locally
 
 ***!!!Программа изпользует несколько потоков и процессов, так что будьте осторожны!!!***
 
