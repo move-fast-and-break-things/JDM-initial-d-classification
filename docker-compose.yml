@@ -7,6 +7,7 @@ services:
       - JDM_BOT_TOKEN=${JDM_BOT_TOKEN}
     volumes:
       - db:/db
+    restart: unless-stopped
 volumes:
   db:
     driver: local
